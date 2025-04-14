@@ -18,7 +18,7 @@ export default function MarketScreen({ navigation }) {
   const [size, setSize] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const apiBase = 'https://unagedluxury-3uyy6etro-daniel-kassabs-projects.vercel.app/inventory';
+  const apiBase = 'https://unagedluxury.vercel.app/inventory';
 
   const brandLogos = {
     "ROLEX": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rolex_logo.svg/512px-Rolex_logo.svg.png",
